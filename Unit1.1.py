@@ -9,4 +9,4 @@ Total_spade=Spade_cards+Kings-Spade_king
 
 Probability=(Total_cards-Total_spade)/Total_cards
 
-print("Your Probability Is : ",Probability);
+print("Your Probability Is : ",Probability)
