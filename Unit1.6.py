@@ -2,9 +2,9 @@
 
 Rollno=str(input("Enter Your Roll Number : "))
 
-Branch=Rollno[0:2]
+Branch=Rollno[0:2].upper()
 
-if Branch == "Cs" or Branch=="cS" or Branch=="CS" or Branch=="cs":
+if Branch == "CS":
      print("\n {} Is Computer Scince Department Student : ".format(Rollno))
   
 else:
